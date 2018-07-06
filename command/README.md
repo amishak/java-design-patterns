@@ -4,10 +4,11 @@ title: Command
 folder: command
 permalink: /patterns/command/
 categories: Behavioral
-tags: 
+tags:
  - Java
  - Gang Of Four
  - Difficulty-Intermediate
+ - Functional
 ---
 
 ## Also known as
@@ -35,10 +36,15 @@ Use the Command pattern when you want to
 * implement callback functionality
 * implement the undo functionality
 
+## Presentations
+
+* [Command Pattern](etc/presentation.html) 
+
 ## Real world examples
 
 * [java.lang.Runnable](http://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html)
 * [Netflix Hystrix](https://github.com/Netflix/Hystrix/wiki)
+* [javax.swing.Action](http://docs.oracle.com/javase/8/docs/api/javax/swing/Action.html)
 
 ## Credits
 
